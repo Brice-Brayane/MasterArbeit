@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "masterarbeit-detector"
+version = "0.1.0"
+requires-python = ">=3.9,<3.11"
+dependencies = []
+
+[project.scripts]
+ma-detect = "scripts.detect_realtime:main"
